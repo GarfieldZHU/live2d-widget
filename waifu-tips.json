@@ -1,137 +1,308 @@
 {
-	"mouseover": [{
-		"selector": "#live2d",
-		"text": ["干嘛呢你，快把手拿开～～", "鼠…鼠标放错地方了！", "你要干嘛呀？", "喵喵喵？", "怕怕(ノ≧∇≦)ノ", "不要动手动脚的！", "我要生气了哦", "真…真的是不知羞耻！", "Hentai！", "呀！好痒……不要突然碰人家嘛～", "主人说过要 respect boundaries 的！", "你的手比 null pointer 还危险！"]
-	}, {
-		"selector": "#waifu-tool-hitokoto",
-		"text": ["想听我说点什么吗～？", "让我给你来一句经典语录吧！", "一言不合就给你整个金句！✨"]
-	}, {
-		"selector": "#waifu-tool-asteroids",
-		"text": ["要不要来玩飞机大战？", "主人说他是 Full Stack Gamer 哦，你敢挑战吗～", "这游戏比 Dark Souls 简单多了啦！", "小心哦，主人的最高分可是很难超越的～"]
-	}, {
-		"selector": "#waifu-tool-switch-model",
-		"text": ["想见见我的姐妹吗？", "要切换看板娘吗～？", "每个看板娘都有不同的性格哦～"]
-	}, {
-		"selector": "#waifu-tool-switch-texture",
-		"text": ["喜欢换装 PLAY 吗？", "变装时间到！✨", "让我换件衣服吧～", "今天想看什么 style 呢？"]
-	}, {
-		"selector": "#waifu-tool-photo",
-		"text": ["要给我拍照呀？一二三～茄子～📸", "要不要合影呀～", "记得把我拍得美美的哦！"]
-	}, {
-		"selector": "#waifu-tool-info",
-		"text": ["想了解更多关于我的事吗？", "去看看主人的 GitHub 吧～", "主人的 commit history 就是他的人生轨迹呢～"]
-	}, {
-		"selector": "#waifu-tool-quit",
-		"text": ["呜呜 QAQ 后会有期……", "不要赶我走啦……", "哼，你会想我的！", "我们…还能再见面吗……", "就像 Solaire 说的：Don't you dare go Hollow..."]
-	}, {
-		"selector": "nav a[href='/']",
-		"text": ["回首页看看吧～主人的 Terminal 在那里等你呢！", "首页有个超酷的交互终端哦，去玩玩吧～✨", "首页就是主人的 main() 函数啦！"]
-	}, {
-		"selector": "nav a[href='/blog']",
-		"text": ["去看看主人写的博客吧，都是干货呢！", "Blog 里记录了主人的技术冒险～", "主人说了，分享是最好的学习方式！", "每篇文章都是主人用 Latte 和热情写成的☕"]
-	}, {
-		"selector": "nav a[href='/tags']",
-		"text": ["按标签找文章超方便的～", "TypeScript、Rust、Java…主人什么都写呢！", "标签就像宝可梦的属性一样，帮你快速定位！"]
-	}, {
-		"selector": "nav a[href='/projects']",
-		"text": ["这里有主人做的有趣项目哦！", "去 Projects 页面探索一下吧，有游戏玩的～🎮", "主人的 side projects 比他的 main job 还多呢！"]
-	}, {
-		"selector": "nav a[href='/agent']",
-		"text": ["Agent 页面是主人的 AI 人格展示哦！", "想了解 AlohaYo Agent 的身份和信条吗？去看看～", "那里有主人的 Null-stack 工程师宣言呢！", "主人的 creed 比 Assassin's Creed 还酷！"]
-	}, {
-		"selector": "nav a[href='/about']",
-		"text": ["想知道主人是谁吗？去 About 页面一探究竟吧！", "主人是个 Gamer + 工程师，很有趣的人哦～", "About 页面有主人的 Souls-like 冒险故事呢！☀️"]
-	}, {
-		"selector": "a[href*='/blog/']",
-		"text": ["要去看看 <span>{text}</span> 这篇文章吗？", "看起来很有意思的文章呢～点进去看看吧！", "<span>{text}</span>？主人写这篇的时候一定很用心呢！"]
-	}, {
-		"selector": "a[href*='/tags/']",
-		"text": ["要去看看 <span>{text}</span> 标签的文章吗？", "这个标签下一定有很多好文章～"]
-	}, {
-		"selector": "#HomeTerminal, [role='toolbar']",
-		"text": ["这是主人做的交互终端哦！像不像真的命令行？✨", "试试点击里面的选项，有很多有趣的东西～", "Terminal 里可以抽宝可梦哦！我也想要一只皮卡丘～", "主人说这个终端就是他的 digital 名片！", "在终端里输入 help 看看会怎样？……开玩笑的啦～"]
-	}, {
-		"selector": "header",
-		"text": ["导航栏在这里哦，想去哪里点哪里～", "主人把所有页面都整理好了呢！", "header 就像游戏里的快捷菜单一样方便！"]
-	}, {
-		"selector": "footer",
-		"text": ["已经到底部了呢，要不要回到顶部看看？", "感谢你读到最后哦～٩(◕‿◕｡)۶", "到底了！就像通关了一样的成就感～"]
-	}, {
-		"selector": "pre, code",
-		"text": ["这段代码看起来很厉害的样子！", "主人写代码的时候一定在喝 Latte 呢☕", "代码可以直接复制哦～", "据说好的代码自己会说话，不需要注释～", "看到 TypeScript 就知道是主人的风格了！类型安全至上！", "这代码比诗还优雅呢～至少主人是这么觉得的", "console.log('Hello from AlohaYo! 🌺')"]
-	}, {
-		"selector": "img",
-		"text": ["点击图片可以放大看哦！", "好漂亮的图片呢～", "一图胜千言！"]
-	}, {
-		"selector": "h1, h2, h3",
-		"text": ["这个章节看起来很重要呢！", "认真阅读，好好学习哦～", "重点来了！做好笔记～"]
-	}, {
-		"selector": ".giscus, .giscus-frame",
-		"text": ["想留言和主人交流吗？评论区在这里哦～", "有什么想法就大胆留言吧！", "主人很喜欢和读者互动的，快来聊聊～"]
-	}],
-	"click": [{
-		"selector": "#live2d",
-		"text": ["是…是不小心碰到了吧…", "你看到我的小熊了吗？", "再摸的话我可要报警了！⌇●﹏●⌇", "不要摸我了，我会告诉主人的！", "干嘛动我呀！小心我咬你！", "别摸我，有什么好摸的！", "哼！主人说了 Call out problems, 我现在就 call out 你！", "你触发了我的 onClick 事件！", "TypeError: Cannot touch undefined(me)!", "再点我就 throw new Error 了哦！", "我的心不是 public 的属性，你不能随便 access！"]
-	}],
-	"seasons": [{
-		"date": "01/01",
-		"text": "<span>元旦</span>了呢，新的一年又开始了，今年是{year}年～新年要写更多好代码哦！"
-	}, {
-		"date": "02/14",
-		"text": "又是一年<span>情人节</span>，主人说他和代码是真爱～"
-	}, {
-		"date": "03/14",
-		"text": "今天是<span>白色情人节</span>，也是<span>圆周率日</span>！π = 3.14159...主人说数学也是一种浪漫～"
-	}, {
-		"date": "04/01",
-		"text": "悄悄告诉你一个秘密～<span>今天是愚人节，主人的 stack 真的是 NULL 哦～</span>"
-	}, {
-		"date": "05/01",
-		"text": "今天是<span>五一劳动节</span>，主人应该在打游戏而不是写代码吧～"
-	}, {
-		"date": "05/04",
-		"text": "May the <span>Fourth</span> be with you! 原力与你同在～主人是星战粉来着"
-	}, {
-		"date": "06/01",
-		"text": "<span>儿童节</span>了呢，主人虽然是大人了，但打游戏的时候还是像个孩子～"
-	}, {
-		"date": "10/01",
-		"text": "<span>国庆节</span>快乐！Long may the sun shine! ☀️"
-	}, {
-		"date": "10/31",
-		"text": "Happy <span>Halloween</span>! 🎃 今晚要不要来场恐怖游戏马拉松？"
-	}, {
-		"date": "12/20-12/31",
-		"text": "<span>年末</span>了呢，今年写了多少行代码呀？主人的 GitHub contribution graph 绿得像草地一样呢～"
-	}, {
-		"date": "12/25",
-		"text": "Merry <span>Christmas</span>! 🎄 愿你的代码没有 bug，游戏不卡顿～"
-	}],
-	"time": [{
-		"hour": "6-7",
-		"text": "早上好！一日之计在于晨，来杯 Latte 开始新的一天吧☕"
-	}, {
-		"hour": "8-11",
-		"text": ["上午好！今天的代码写得顺利吗？记得多喝水哦～", "上午是写代码的黄金时间呢，主人说大脑最清醒！", "Good morning! 希望今天不会遇到奇怪的 bug～"]
-	}, {
-		"hour": "12-13",
-		"text": ["中午了，该去吃饭啦！主人说午饭后要晒晒太阳呢☀️", "午饭时间！程序员不能只靠咖啡活着哦～"]
-	}, {
-		"hour": "14-17",
-		"text": ["午后容易犯困呢，要不要看看主人的博客提提神？", "下午茶时间～要不要来杯 Earl Grey？", "if (sleepy) { coffee.drink(); } // 主人的下午必备"]
-	}, {
-		"hour": "18-19",
-		"text": ["傍晚了！夕阳很美呢，Long may the sun shine～", "下班啦！是时候从 work mode 切换到 game mode 了！"]
-	}, {
-		"hour": "20-21",
-		"text": ["晚上好！是时候放松一下了，要不要抽只宝可梦玩玩？", "晚上好！主人这时候一般在打游戏或者看番呢～", "夜晚是 side project 的时间！✨"]
-	}, {
-		"hour": "22-23",
-		"text": ["已经这么晚了呀，早点休息吧，晚安～", "深夜时要爱护眼睛呀！主人经常熬夜打游戏，你可不要学他！", "Sleep is the best garbage collector for your brain～"]
-	}, {
-		"hour": "0-5",
-		"text": ["你是夜猫子呀？主人说了 start with the simplest hypothesis — 最简单的假设就是：你该睡觉了！", "凌晨了还不睡？小心变成 zombie process 哦！", "这个点还醒着…你是在 debug 还是在打 Elden Ring？"]
-	}],
+	"mouseover": [
+		{
+			"selector": "#live2d",
+			"text": [
+				"干嘛呢你，快把手拿开～～",
+				"鼠…鼠标放错地方了！",
+				"你要干嘛呀？",
+				"喵喵喵？",
+				"怕怕(ノ≧∇≦)ノ",
+				"不要动手动脚的！",
+				"我要生气了哦",
+				"真…真的是不知羞耻！",
+				"Hentai！",
+				"呀！好痒……不要突然碰人家嘛～",
+				"主人说过要 respect boundaries 的！",
+				"你的手比 null pointer 还危险！"
+			]
+		},
+		{
+			"selector": "#waifu-tool-hitokoto",
+			"text": [
+				"想听我说点什么吗～？",
+				"让我给你来一句经典语录吧！",
+				"一言不合就给你整个金句！✨"
+			]
+		},
+		{
+			"selector": "#waifu-tool-photo",
+			"text": [
+				"要给我拍照呀？一二三～茄子～📸",
+				"要不要合影呀～",
+				"记得把我拍得美美的哦！"
+			]
+		},
+		{
+			"selector": "#waifu-tool-info",
+			"text": [
+				"想了解更多关于我的事吗？",
+				"去看看主人的 GitHub 吧～",
+				"主人的 commit history 就是他的人生轨迹呢～"
+			]
+		},
+		{
+			"selector": "#waifu-tool-quit",
+			"text": [
+				"呜呜 QAQ 后会有期……",
+				"不要赶我走啦……",
+				"哼，你会想我的！",
+				"我们…还能再见面吗……",
+				"就像 Solaire 说的：Don't you dare go Hollow..."
+			]
+		},
+		{
+			"selector": "nav a[href='/']",
+			"text": [
+				"回首页看看吧～主人的 Terminal 在那里等你呢！",
+				"首页有个超酷的交互终端哦，去玩玩吧～✨",
+				"首页就是主人的 main() 函数啦！"
+			]
+		},
+		{
+			"selector": "nav a[href='/blog']",
+			"text": [
+				"去看看主人写的博客吧，都是干货呢！",
+				"Blog 里记录了主人的技术冒险～",
+				"主人说了，分享是最好的学习方式！",
+				"每篇文章都是主人用 Latte 和热情写成的☕"
+			]
+		},
+		{
+			"selector": "nav a[href='/tags']",
+			"text": [
+				"按标签找文章超方便的～",
+				"TypeScript、Rust、Java…主人什么都写呢！",
+				"标签就像宝可梦的属性一样，帮你快速定位！"
+			]
+		},
+		{
+			"selector": "nav a[href='/projects']",
+			"text": [
+				"这里有主人做的有趣项目哦！",
+				"去 Projects 页面探索一下吧，有游戏玩的～🎮",
+				"主人的 side projects 比他的 main job 还多呢！"
+			]
+		},
+		{
+			"selector": "nav a[href='/agent']",
+			"text": [
+				"Agent 页面是主人的 AI 人格展示哦！",
+				"想了解 AlohaYo Agent 的身份和信条吗？去看看～",
+				"那里有主人的 Null-stack 工程师宣言呢！",
+				"主人的 creed 比 Assassin's Creed 还酷！"
+			]
+		},
+		{
+			"selector": "nav a[href='/about']",
+			"text": [
+				"想知道主人是谁吗？去 About 页面一探究竟吧！",
+				"主人是个 Gamer + 工程师，很有趣的人哦～",
+				"About 页面有主人的 Souls-like 冒险故事呢！☀️"
+			]
+		},
+		{
+			"selector": "a[href*='/blog/']",
+			"text": [
+				"要去看看 <span>{text}</span> 这篇文章吗？",
+				"看起来很有意思的文章呢～点进去看看吧！",
+				"<span>{text}</span>？主人写这篇的时候一定很用心呢！"
+			]
+		},
+		{
+			"selector": "a[href*='/tags/']",
+			"text": [
+				"要去看看 <span>{text}</span> 标签的文章吗？",
+				"这个标签下一定有很多好文章～"
+			]
+		},
+		{
+			"selector": "#HomeTerminal, [role='toolbar']",
+			"text": [
+				"这是主人做的交互终端哦！像不像真的命令行？✨",
+				"试试点击里面的选项，有很多有趣的东西～",
+				"Terminal 里可以抽宝可梦哦！我也想要一只皮卡丘～",
+				"主人说这个终端就是他的 digital 名片！",
+				"在终端里输入 help 看看会怎样？……开玩笑的啦～"
+			]
+		},
+		{
+			"selector": "header",
+			"text": [
+				"导航栏在这里哦，想去哪里点哪里～",
+				"主人把所有页面都整理好了呢！",
+				"header 就像游戏里的快捷菜单一样方便！"
+			]
+		},
+		{
+			"selector": "footer",
+			"text": [
+				"已经到底部了呢，要不要回到顶部看看？",
+				"感谢你读到最后哦～٩(◕‿◕｡)۶",
+				"到底了！就像通关了一样的成就感～"
+			]
+		},
+		{
+			"selector": "pre, code",
+			"text": [
+				"这段代码看起来很厉害的样子！",
+				"主人写代码的时候一定在喝 Latte 呢☕",
+				"代码可以直接复制哦～",
+				"据说好的代码自己会说话，不需要注释～",
+				"看到 TypeScript 就知道是主人的风格了！类型安全至上！",
+				"这代码比诗还优雅呢～至少主人是这么觉得的",
+				"console.log('Hello from AlohaYo! 🌺')"
+			]
+		},
+		{
+			"selector": "img",
+			"text": [
+				"点击图片可以放大看哦！",
+				"好漂亮的图片呢～",
+				"一图胜千言！"
+			]
+		},
+		{
+			"selector": "h1, h2, h3",
+			"text": [
+				"这个章节看起来很重要呢！",
+				"认真阅读，好好学习哦～",
+				"重点来了！做好笔记～"
+			]
+		},
+		{
+			"selector": ".giscus, .giscus-frame",
+			"text": [
+				"想留言和主人交流吗？评论区在这里哦～",
+				"有什么想法就大胆留言吧！",
+				"主人很喜欢和读者互动的，快来聊聊～"
+			]
+		}
+	],
+	"click": [
+		{
+			"selector": "#live2d",
+			"text": [
+				"是…是不小心碰到了吧…",
+				"你看到我的小熊了吗？",
+				"再摸的话我可要报警了！⌇●﹏●⌇",
+				"不要摸我了，我会告诉主人的！",
+				"干嘛动我呀！小心我咬你！",
+				"别摸我，有什么好摸的！",
+				"哼！主人说了 Call out problems, 我现在就 call out 你！",
+				"你触发了我的 onClick 事件！",
+				"TypeError: Cannot touch undefined(me)!",
+				"再点我就 throw new Error 了哦！",
+				"我的心不是 public 的属性，你不能随便 access！"
+			]
+		}
+	],
+	"seasons": [
+		{
+			"date": "01/01",
+			"text": "<span>元旦</span>了呢，新的一年又开始了，今年是{year}年～新年要写更多好代码哦！"
+		},
+		{
+			"date": "02/14",
+			"text": "又是一年<span>情人节</span>，主人说他和代码是真爱～"
+		},
+		{
+			"date": "03/14",
+			"text": "今天是<span>白色情人节</span>，也是<span>圆周率日</span>！π = 3.14159...主人说数学也是一种浪漫～"
+		},
+		{
+			"date": "04/01",
+			"text": "悄悄告诉你一个秘密～<span>今天是愚人节，主人的 stack 真的是 NULL 哦～</span>"
+		},
+		{
+			"date": "05/01",
+			"text": "今天是<span>五一劳动节</span>，主人应该在打游戏而不是写代码吧～"
+		},
+		{
+			"date": "05/04",
+			"text": "May the <span>Fourth</span> be with you! 原力与你同在～主人是星战粉来着"
+		},
+		{
+			"date": "06/01",
+			"text": "<span>儿童节</span>了呢，主人虽然是大人了，但打游戏的时候还是像个孩子～"
+		},
+		{
+			"date": "10/01",
+			"text": "<span>国庆节</span>快乐！Long may the sun shine! ☀️"
+		},
+		{
+			"date": "10/31",
+			"text": "Happy <span>Halloween</span>! 🎃 今晚要不要来场恐怖游戏马拉松？"
+		},
+		{
+			"date": "12/20-12/31",
+			"text": "<span>年末</span>了呢，今年写了多少行代码呀？主人的 GitHub contribution graph 绿得像草地一样呢～"
+		},
+		{
+			"date": "12/25",
+			"text": "Merry <span>Christmas</span>! 🎄 愿你的代码没有 bug，游戏不卡顿～"
+		}
+	],
+	"time": [
+		{
+			"hour": "6-7",
+			"text": "早上好！一日之计在于晨，来杯 Latte 开始新的一天吧☕"
+		},
+		{
+			"hour": "8-11",
+			"text": [
+				"上午好！今天的代码写得顺利吗？记得多喝水哦～",
+				"上午是写代码的黄金时间呢，主人说大脑最清醒！",
+				"Good morning! 希望今天不会遇到奇怪的 bug～"
+			]
+		},
+		{
+			"hour": "12-13",
+			"text": [
+				"中午了，该去吃饭啦！主人说午饭后要晒晒太阳呢☀️",
+				"午饭时间！程序员不能只靠咖啡活着哦～"
+			]
+		},
+		{
+			"hour": "14-17",
+			"text": [
+				"午后容易犯困呢，要不要看看主人的博客提提神？",
+				"下午茶时间～要不要来杯 Earl Grey？",
+				"if (sleepy) { coffee.drink(); } // 主人的下午必备"
+			]
+		},
+		{
+			"hour": "18-19",
+			"text": [
+				"傍晚了！夕阳很美呢，Long may the sun shine～",
+				"下班啦！是时候从 work mode 切换到 game mode 了！"
+			]
+		},
+		{
+			"hour": "20-21",
+			"text": [
+				"晚上好！是时候放松一下了，要不要抽只宝可梦玩玩？",
+				"晚上好！主人这时候一般在打游戏或者看番呢～",
+				"夜晚是 side project 的时间！✨"
+			]
+		},
+		{
+			"hour": "22-23",
+			"text": [
+				"已经这么晚了呀，早点休息吧，晚安～",
+				"深夜时要爱护眼睛呀！主人经常熬夜打游戏，你可不要学他！",
+				"Sleep is the best garbage collector for your brain～"
+			]
+		},
+		{
+			"hour": "0-5",
+			"text": [
+				"你是夜猫子呀？主人说了 start with the simplest hypothesis — 最简单的假设就是：你该睡觉了！",
+				"凌晨了还不睡？小心变成 zombie process 哦！",
+				"这个点还醒着…你是在 debug 还是在打 Elden Ring？"
+			]
+		}
+	],
 	"message": {
 		"default": [
 			"欢迎来到 AlohaYo 的小窝～有什么想看的吗？",
